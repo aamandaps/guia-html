@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula - Elementos de Texto no HTML</title>
+</head>
+<body>
+        <h2>Formatação de texto</h2>
+
+        <h3>Negrito</h3>
+        <p>Aviso <strong>IMPORTANTE</strong></p>
+        <p>Aviso <b>importante</b> para a turma</p>  <!--Maneira Antiga-->
+        <br>
+
+        <h3>Itálico</h3>
+        <p>A palavra em <em>itálico</em> ganha destaque visual</p> <!--Mais usado atualmente-->
+        <p>A palavra em <i>itálico</i> ganha destaque visual</p>
+        <br>
+
+        <h3>Sublinhado</h3>
+        <p>Este trecho do <u>texto possui Sublinhado</u></p>
+        <br>
+
+        <h3>Texto Sobescrito</h3>
+        <p>Potência matemática: 2<sup>3</sup> = 8</p>
+        <p>Teorema de Pitágoras: a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup></p>
+        <p>Posição Ordinal: 1<sup>o</sup> lugar</p>
+        <br>
+
+        <h3>Texto Subscrito</h3>
+        <p>Fórmula química da água: H<sub>2</sub>O</p>
+        <p>O logaritmo de 100 na base 10 é log<sub>10</sub>(100) = 2</p>
+        <p>O dióxido de carbono (CO<sub>2</sub>) é um gás do efeito estufa comum.</p>
+        <br>
+
+        <h3>Citação em Bloco</h3>
+        <p> Albert Einstein afirmou: </p>
+        <blockquote>
+            A imaginação é mais importante que o conhecimento.
+        </blockquote>
+        <p>Essa frase destaca a importância da criatividade</p>
+        <br>
+
+        <h3>Citações Curtas</h3>
+        <p>O professor disse: <q>HTML é usado para estruturar o conteúdo de uma página</q></p>
+        <br>
+
+        <h3>Texto Pré-formatado</h3>
+        <pre>
+            Nome        Estado
+            ------------------
+            Fulano        SP
+            Ciclano       RJ
+        </pre>
+        <br>
+
+        <h3>Código</h3>
+        <p>Para exibir uma mensagem em Python, use: <code>print("Hello World")</code>.</p> <!-- Código em Linha-->
+        <br>
+
+        <p>Para exibir uma mensagem em Java, use:</p>
+        <pre>
+            <code>
+                static void Saudar() {
+                    ("Hello World !");
+                }
+            </code>
+        </pre>
+        <br>
+
+        <h2>Listas</h2>
+
+        <h3>Lista não ordenada</h3> <!--Tag ul significa Unordered-->
+        
+        <h4> - Um nível</h4>
+        <p>Lista de compras</p>
+        <ul>
+            <li>Café</li>
+            <li>Leite</li>
+            <li>Pão</li>
+        </ul>
+        <br>
+
+        <h4> - Dois níveis</h4>
+        <p>Lista de Compras</p>
+        <ul>
+            <li>
+                Café
+                <ul>
+                    <li>Capuccino</li>
+                    <li>Expresso</li>
+                </ul>
+            </li>
+            <li>Leite</li>
+            <li>Pão</li>
+        </ul>
+        <br>
+
+        <h3>Lista ordenada</h3>
+        <h4> - Um nível</h4>
+        <p>Passo a passo</p>
+        <ol>
+            <li>Ligar o computador</li>
+            <li>Abrir o VS Code</li>
+            <li>Criar arquivo index.html</li>
+        </ol>
+        <br>
+
+        <h4> - Dois níveis</h4>
+        <p>Passo a passo</p>
+        <ol>
+            <li>Abrir VS Code
+                <ol>
+                    <li>Localizar na área de trabalho</li>
+                    <li>Clicar duas vezes</li>
+                </ol>
+            </li>
+            <li> Criar arquivo
+                <ol>
+                    <li>Ir em Novo Arquivo</li>
+                    <li>Salvar o arquivo com o nome index.html</li>
+                </ol>
+            </li>
+        </ol>
+
+        <h3>Listas ordenadas e não ordenadas</h3>
+        <ol>
+            <li>Ingredientes para a massa:
+                <ul>
+                    <li>Farinha de trigo</li>
+                    <li>Ovos</li>
+                    <li>Leite</li>
+                </ul>
+            </li>
+            <li>Modo de preparo
+                <ol>
+                    <li>Misture os Ingredientes</li>
+                    <li>Leve ao forno por 30min</li>
+                </ol>
+            </li>
+        </ol>
+        <br>
+        
+        <ul>
+            <li>Item principal
+                <ul>
+                    <li>Subitem</li>
+                </ul>
+            </li>
+        </ul>
+        <ol>
+            <li>Item principal
+                <ol>
+                    <li>Subitem</li>
+                </ol>
+            </li>
+        </ol>
+</body>
+</html>
